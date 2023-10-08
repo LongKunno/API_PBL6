@@ -3,7 +3,6 @@ Tien do hoan thanh
 ### auth
 ## email
 # hoadon.blade.php
-
 khachhang_ten
 khachhang_sdt
 khachhang_email
@@ -30,25 +29,21 @@ chitietdonhang_so_luong
 ### frontend
 ## blocks
 # footer.blade.php
-
 nhom_url
 nhom_ten
 
 # menu.blade.php
-
 nhom_url
 nhom_ten
 loaisanpham_url
 loaisanpham_ten
 
 # pagination.blade.php
-
 currentPage
 lastPage
 sanphamUrl( mảng các url)
  
 # search.blade.php
-
 <form action="{!! route('getTimkiem') !!}" method="POST">
     	<input type="hidden" name="_token" value="{!! csrf_token() !!}" />
 	  	<input type="text" name="txtSeach" id="txtseach" placeholder="Tìm kiếm...">
@@ -56,18 +51,26 @@ sanphamUrl( mảng các url)
 </form>
 
 # slide.blade.php
-
 quangcao_anh (link anh)
 
 # spbanchay
-
 sanpham_url (link details)
 sanpham_anh (link anh)
 sanpham_ten
 lohang_gia_ban_ra
 
-
 ## pages
+# home.blade.php
+sanpham_url
+sanpham_anh
+sanpham_ten
+sanpham_khuyenmai
+lohang_gia_ban_ra
+khuyenmai_phan_tram
++ block(slide,footer)
+
+
+
 ## master.blade.php
 ### layouts
 ### demo.blade.php
