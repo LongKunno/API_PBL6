@@ -1,3 +1,16 @@
+================> NOTE <==============
+=========> Tien do hoan thanh <=======
+Total: 132
+Hoàn thành:
+- Frontend
+- Layout
+- Master Views
+Chưa hoàn thành:
+- Auth
+- Backend
+- Errors
+- POST_API
+--------------------------------------------------
 #### views
 ### auth
 ## email
@@ -163,10 +176,6 @@ lohang_gia_ban_ra
 
 
 
-
-
-=> Tien do hoan thanh <=
-
 ## master.blade.php
 ### layouts
 ### demo.blade.php
@@ -179,7 +188,6 @@ sanpham_anh
 
 ### home.blade.php
 ### print_layout.blade.php
-
 shop_name
 shop_address
 shop_phone_number
