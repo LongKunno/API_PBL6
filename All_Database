@@ -65,6 +65,8 @@ sanpham_anh
 nhom_url
 nhom_ten
 
+<form action="" method="POST" accept-charset="utf-8">
+
 # cates.blade.php
 loaisanpham_anh
 loaisanpham_ten
@@ -85,19 +87,9 @@ khachhang_email
 khachhang_sdt
 khachhang_dia_chi
 
-# home.blade.php
-sanpham_id
-sanpham_url
-sanpham_anh
-sanpham_ten
-sanpham_khuyenmai
-lohang_gia_ban_ra
-khuyenmai_phan_tram
-nhom_url
-nhom_ten
-quangcao_anh (link anh)
+<form action="{!! route('getThanhtoan') !!}" method="POST">
 
-# detailpro
+# detailpro.blade.php
 sanpham_anh
 sanpham_ten
 sanpham_url
@@ -115,13 +107,97 @@ binhluan_noi_dung
 
 <form action="{!! url('binh-luan') !!}"  method="POST">
 
+# detailpromotion.blade.php
+khuyenmai_anh
+khuyenmai_tieu_de
+khuyenmai_created_at
+khuyenmai_noi_dung
+sanpham_id
+sanpham_url
+sanpham_anh
+sanpham_ten
+
+# group.blade.php
+nhom_anh
+nhom_ten
+sanpham_id
+sanpham_url
+sanpham_anh
+sanpham_ten
+sanpham_khuyenmai
+lohang_gia_ban_ra
+khuyenmai_phan_tram
+
+# home.blade.php
+sanpham_id
+sanpham_url
+sanpham_anh
+sanpham_ten
+sanpham_khuyenmai
+lohang_gia_ban_ra
+khuyenmai_phan_tram
+nhom_url
+nhom_ten
+quangcao_anh (link anh)
+
+# product.blade.php
+sanpham_id
+sanpham_url
+sanpham_anh
+sanpham_ten
+lohang_gia_ban_ra
+sanpham_khuyenmai
+
+# promotion.blade.php
+khuyenmai_anh
+khuyenmai_tieu_de
+khuyenmai_created_at
+khuyenmai_thoi_gian
+khuyenmai_noi_dung
+khuyenmai_phan_tram
+sanpham_id
+sanpham_url
+sanpham_anh
+sanpham_ten
+lohang_gia_ban_ra
+
+
+
+
+
 => Tien do hoan thanh <=
 
 ## master.blade.php
 ### layouts
 ### demo.blade.php
+
+sanpham_id
+sanpham_ten
+sanpham_anh
+
+<form action="" method="POST">
+
 ### home.blade.php
 ### print_layout.blade.php
+
+shop_name
+shop_address
+shop_phone_number
+shop_email
+khachhang_name
+khachhang_address
+khachhang_phone_number
+khachhang_email
+order_detail_product_name
+order_detail_quantity
+order_detail_product_price
+order_detail_quantity
+order_total_money
+order_ship_cost
+order_total
+order_
+
+
 ### welcome.blade.php
 
 
