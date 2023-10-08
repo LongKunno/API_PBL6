@@ -1,4 +1,3 @@
-Tien do hoan thanh
 #### views
 ### auth
 ## email
@@ -60,16 +59,63 @@ sanpham_ten
 lohang_gia_ban_ra
 
 ## pages
+# cart.blade.php
+sanpham_url
+sanpham_anh
+nhom_url
+nhom_ten
+
+# cates.blade.php
+loaisanpham_anh
+loaisanpham_ten
+nhom_url
+nhom_ten
+sanpham_id
+sanpham_ten
+sanpham_url
+sanpham_anh
+sanpham_khuyenmai
+lohang_gia_ban_ra
+khuyenmai_phan_tram
+
+# checkin.blade.php
+khachhang_id
+khachhang_ten
+khachhang_email
+khachhang_sdt
+khachhang_dia_chi
+
 # home.blade.php
+sanpham_id
 sanpham_url
 sanpham_anh
 sanpham_ten
 sanpham_khuyenmai
 lohang_gia_ban_ra
 khuyenmai_phan_tram
-+ block(slide,footer)
+nhom_url
+nhom_ten
+quangcao_anh (link anh)
 
+# detailpro
+sanpham_anh
+sanpham_ten
+sanpham_url
+sanpham_id
+sanpham_mo_ta
+nhom_url
+nhom_ten
+loaisanpham_url
+loaisanpham_ten
+hinhsanpham_ten
+lohang_gia_ban_ra
+binhluan_ten
+binhluan_created_at
+binhluan_noi_dung
 
+<form action="{!! url('binh-luan') !!}"  method="POST">
+
+=> Tien do hoan thanh <=
 
 ## master.blade.php
 ### layouts
