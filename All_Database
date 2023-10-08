@@ -1,14 +1,81 @@
+Tien do hoan thanh
 #### views
 ### auth
+## email
+# hoadon.blade.php
+
+khachhang_ten
+khachhang_sdt
+khachhang_email
+khachhang_dia_chi
+donhang_nguoi_nhan
+donhang_nguoi_nhan_sdt
+donhang_nguoi_nhan_email
+donhang_nguoi_nhan_dia_chi
+donhang_ghi_chu
+donhang_tong_tien
+sanpham_ten
+chitietdonhang_thanh_tien
+chitietdonhang_so_luong
+
+# layoutmail.blade.php
+# passwork.blade.php
+## passwords
+# email.blade.php
+# reset.blade.php
+## login.blade.php
+## register.blade.php
 ### backend
 ### errors
 ### frontend
+## blocks
+# footer.blade.php
+
+nhom_url
+nhom_ten
+
+# menu.blade.php
+
+nhom_url
+nhom_ten
+loaisanpham_url
+loaisanpham_ten
+
+# pagination.blade.php
+
+currentPage
+lastPage
+sanphamUrl( mảng các url)
+ 
+# search.blade.php
+
+<form action="{!! route('getTimkiem') !!}" method="POST">
+    	<input type="hidden" name="_token" value="{!! csrf_token() !!}" />
+	  	<input type="text" name="txtSeach" id="txtseach" placeholder="Tìm kiếm...">
+	  	<button type="submit"><span class="fa fa-search"></span></button>
+</form>
+
+# slide.blade.php
+
+quangcao_anh (link anh)
+
+# spbanchay
+
+sanpham_url (link details)
+sanpham_anh (link anh)
+sanpham_ten
+lohang_gia_ban_ra
+
+
+## pages
+## master.blade.php
 ### layouts
-### demo
-### home
-## Blocks
-## Pages
+### demo.blade.php
+### home.blade.php
+### print_layout.blade.php
+### welcome.blade.php
 
 
-## print_layout
-## welcome
+
+
+
